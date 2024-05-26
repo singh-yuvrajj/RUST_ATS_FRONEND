@@ -1,0 +1,25 @@
+.page-items,
+.pagination {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.page-items {
+  width: 1601px;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+}
+.pagination {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 0 25px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1500px) {
+  .page-items {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

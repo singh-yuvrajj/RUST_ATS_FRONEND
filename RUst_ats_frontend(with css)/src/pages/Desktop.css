@@ -1,0 +1,434 @@
+.navbar {
+  height: 104px;
+  width: 1920px;
+  position: relative;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.briefcase-1-icon,
+.rehire {
+  position: relative;
+  z-index: 1;
+}
+.briefcase-1-icon {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.rehire {
+  text-decoration: none;
+  flex: 1;
+  font-weight: 600;
+  color: inherit;
+  white-space: nowrap;
+}
+.briefcase-1-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.frame-wrapper {
+  width: 201px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 10px;
+  box-sizing: border-box;
+}
+.user {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 46px;
+  z-index: 1;
+}
+.user-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 19px 0 0;
+}
+.frame-child {
+  height: 62px;
+  width: 62px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 2;
+}
+.frame-parent,
+.navbar-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
+  font-size: 20px;
+}
+.navbar-parent {
+  align-self: stretch;
+  background-color: #fff;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 21px 174px 21px 162px;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: 20px;
+  text-align: left;
+  font-size: 32px;
+  color: #000;
+  font-family: Inter;
+}
+.desktop-1-child {
+  width: 62px;
+  height: 62px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: contain;
+  display: none;
+}
+.result-header {
+  width: 465px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 282px;
+  min-width: 465px;
+  max-width: 100%;
+}
+.frame-item {
+  width: 1111px;
+  height: 704px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.software-engineer1 {
+  font-weight: 600;
+}
+.company,
+.job-id-12xxx,
+.location,
+.software-engineer {
+  display: block;
+}
+.software-engineer-job-container {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.job-summary-content {
+  width: 387px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 22px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.apply-background {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  border-radius: 14px;
+  background-color: #0a65cc;
+  width: 177px;
+  height: 49px;
+  z-index: 1;
+}
+.apply {
+  position: absolute;
+  top: 38px;
+  left: 7px;
+  font-weight: 600;
+  display: inline-block;
+  width: 65px;
+  height: 24px;
+  min-width: 65px;
+  z-index: 2;
+}
+.apply-wrapper {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 49px;
+  width: 100px;
+  overflow: hidden;
+  z-index: 3;
+}
+.apply-button {
+  height: 100px;
+  width: 177px;
+  position: relative;
+  color: #fff;
+}
+.details-wrapper,
+.job-summary {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.job-summary {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.details-wrapper {
+  width: 992px;
+  justify-content: flex-start;
+  padding: 0 1px;
+  box-sizing: border-box;
+}
+.job-description1 {
+  font-weight: 600;
+}
+.job-description,
+.lorem-ipsum-is-simply-dummy-te {
+  display: block;
+}
+.job-description-lorem-container {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.description-content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 1px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.skills {
+  width: 213px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.skill-bar,
+.skill-bar1,
+.skill-bar2,
+.skill-bar3 {
+  height: 30px;
+  flex: 1;
+  position: relative;
+  border-radius: 14px;
+  background-color: #e6eaec;
+  min-width: 98px;
+  max-width: 107px;
+  z-index: 1;
+}
+.skill-bars,
+.skills-content,
+.skills-content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.skill-bars {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 26px;
+}
+.skills-content,
+.skills-content-wrapper {
+  max-width: 100%;
+}
+.skills-content {
+  flex: 1;
+  flex-direction: column;
+  gap: 6px;
+}
+.skills-content-wrapper {
+  width: 508px;
+  flex-direction: row;
+  padding: 0 1px;
+  box-sizing: border-box;
+}
+.basic-qualifications1 {
+  font-weight: 600;
+}
+.basic-qualifications {
+  display: block;
+}
+.years-of-experience-in-consult1 {
+  margin-bottom: 0;
+}
+.years-of-experience-in-consult {
+  margin: 0;
+  font-size: inherit;
+  padding-left: 27px;
+}
+.blank-line {
+  display: block;
+}
+.years-of-experience-in-consult2 {
+  margin: 0;
+  font-size: inherit;
+  padding-left: 27px;
+}
+.basic-qualifications-3-container {
+  margin: 0;
+  align-self: stretch;
+  height: 163px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.description {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 41px;
+  max-width: 100%;
+}
+.rectangle-parent {
+  flex: 1;
+  border-radius: 14px;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 13px 37px 42px 46px;
+  box-sizing: border-box;
+  gap: 58px;
+  min-width: 722px;
+}
+.advance-filter-parent,
+.rectangle-parent,
+.result-header-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.result-header-parent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: 20px;
+}
+.advance-filter-parent {
+  width: 1596px;
+  flex-direction: column;
+  gap: 33px;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}
+.desktop-1,
+.desktop-1-inner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.desktop-1-inner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  max-width: 100%;
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: #f1f2f4;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 69px;
+  gap: 93px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1325px) {
+  .job-summary,
+  .result-header {
+    flex: 1;
+  }
+  .result-header-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .navbar-parent {
+    padding-left: 81px;
+    padding-right: 87px;
+    box-sizing: border-box;
+  }
+  .rectangle-parent {
+    padding-left: 23px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .desktop-1 {
+    gap: 46px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navbar-parent {
+    padding-left: 40px;
+    padding-right: 43px;
+    box-sizing: border-box;
+  }
+  .result-header {
+    min-width: 100%;
+  }
+  .job-summary,
+  .skill-bars {
+    flex-wrap: wrap;
+  }
+  .description {
+    gap: 20px;
+  }
+  .rectangle-parent {
+    gap: 29px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    box-sizing: border-box;
+  }
+  .advance-filter-parent {
+    gap: 16px;
+  }
+  .desktop-1 {
+    gap: 23px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .result-header {
+    gap: 141px;
+  }
+  .apply,
+  .basic-qualifications-3-container,
+  .job-description-lorem-container,
+  .skills,
+  .software-engineer-job-container {
+    font-size: 16px;
+  }
+}

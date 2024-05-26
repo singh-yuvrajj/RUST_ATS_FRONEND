@@ -1,0 +1,72 @@
+.first-name {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.first-name-and-number-child {
+  align-self: stretch;
+  height: 59px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #e6eaec;
+  z-index: 1;
+}
+.first-name-and-number {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 9px;
+  min-width: 302px;
+  max-width: 100%;
+}
+.last-name {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.last-name-and-email-input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 7px;
+}
+.last-name-and-email-child {
+  align-self: stretch;
+  height: 59px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #e6eaec;
+  z-index: 1;
+}
+.contact-form-first-and-last,
+.last-name-and-email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.last-name-and-email {
+  flex: 1;
+  flex-direction: column;
+  gap: 9px;
+  min-width: 302px;
+}
+.contact-form-first-and-last {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 23px;
+  text-align: left;
+  font-size: 25px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .first-name,
+  .last-name {
+    font-size: 20px;
+  }
+}

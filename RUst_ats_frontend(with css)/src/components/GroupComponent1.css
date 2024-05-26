@@ -1,0 +1,83 @@
+.jobprofile4 {
+  height: 211px;
+  width: 465px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+  z-index: 1;
+}
+.software-engineer9 {
+  font-weight: 600;
+}
+.company4,
+.job-id-12xxx4,
+.location4,
+.software-engineer8 {
+  display: block;
+}
+.software-engineer-job-container4 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.software-engineer-job-id-12xx-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-child17 {
+  align-self: stretch;
+  width: 110px;
+  position: relative;
+  background-color: #acbde7;
+  display: none;
+}
+.image-5-icon2 {
+  height: 110px;
+  width: 107px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.group-div,
+.rectangle-parent1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-parent1 {
+  background-color: #acbde7;
+  padding: 0 0 0 3px;
+  z-index: 1;
+  margin-left: -119px;
+}
+.group-div {
+  width: 465px;
+  border-radius: 14px;
+  background-color: #fff;
+  padding: 51px 40px 50px 47px;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #000;
+  font-family: Inter;
+}
+@media screen and (max-width: 450px) {
+  .software-engineer-job-container4 {
+    font-size: 16px;
+  }
+  .group-div {
+    padding-left: 23px;
+    box-sizing: border-box;
+  }
+}

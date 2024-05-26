@@ -1,0 +1,484 @@
+.skills-and-experience-containe-child {
+  width: 1274px;
+  height: 1782px;
+  position: relative;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: #fff;
+  display: none;
+  max-width: 100%;
+}
+.contact-form-labels {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 28px;
+  max-width: 100%;
+}
+.experience {
+  width: 163px;
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.experience-dropdown-child {
+  height: 59px;
+  width: 462px;
+  position: relative;
+  border-radius: 14px;
+  display: none;
+  max-width: 100%;
+}
+.caretdown-icon {
+  height: 30px;
+  width: 26px;
+  position: relative;
+  z-index: 2;
+}
+.experience-container,
+.experience-dropdown {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.experience-dropdown {
+  align-self: stretch;
+  border-radius: 14px;
+  background-color: #e6eaec;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 15px 14px 14px;
+  z-index: 1;
+}
+.experience-container {
+  width: 462px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 19px;
+  gap: 14px;
+}
+.projects {
+  width: 163px;
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.project-skill-labels-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 14px;
+  background-color: #e6eaec;
+  z-index: 1;
+}
+.project-skill-labels {
+  align-self: stretch;
+  height: 182px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 9px;
+  box-sizing: border-box;
+  gap: 4px;
+}
+.skills1 {
+  width: 163px;
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.project-skill-labels-item {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 14px;
+  background-color: #e5e7e8;
+  z-index: 1;
+}
+.project-skill-form-labels,
+.project-skill-labels1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.project-skill-labels1 {
+  height: 93px;
+  gap: 4px;
+}
+.project-skill-form-labels {
+  gap: 28px;
+  max-width: 100%;
+}
+.educational-qualifications,
+.institute {
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.educational-qualifications {
+  align-self: stretch;
+}
+.institute {
+  display: inline-block;
+  min-width: 116px;
+}
+.educational-qualifications-con {
+  width: 404px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 33px;
+  max-width: 100%;
+}
+.add-another-button-content {
+  align-self: stretch;
+  height: 63px;
+  z-index: 1;
+}
+.add-another-button-container {
+  width: 161px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 2px 0 0;
+  box-sizing: border-box;
+}
+.education-input {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.degree-container-child {
+  align-self: stretch;
+  height: 59px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #e5e7e8;
+  z-index: 1;
+}
+.degree {
+  width: 116px;
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangle-div {
+  height: 59px;
+  width: 465px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #e5e7e8;
+  display: none;
+  max-width: 100%;
+}
+.caretdown-icon1 {
+  height: 30px;
+  width: 26px;
+  position: relative;
+  z-index: 2;
+}
+.degree-dropdown,
+.rectangle-group {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangle-group {
+  border-radius: 14px;
+  background-color: #e5e7e8;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 15px 14px 14px;
+  z-index: 1;
+}
+.degree-dropdown {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 5px;
+  gap: 14px;
+}
+.majorfield-of-study {
+  flex: 1;
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.major-input {
+  width: 287px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 3px;
+  box-sizing: border-box;
+}
+.major-container-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: 14px;
+  background-color: #e5e7e8;
+  z-index: 1;
+}
+.degree-container,
+.major-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.major-container {
+  align-self: stretch;
+  height: 103px;
+  gap: 14px;
+}
+.degree-container {
+  width: 465px;
+  gap: 15px;
+  max-width: 100%;
+}
+.image-8-icon {
+  width: 58px;
+  height: 58px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.upload-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1px 0 0;
+}
+.degree-major-content {
+  width: 902px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: 20px;
+}
+.resumecv {
+  width: 281px;
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 1;
+}
+.upload-resume-container-child {
+  width: 953px;
+  height: 198px;
+  position: relative;
+  border-radius: 14px;
+  background-color: rgba(229, 231, 232, 0.92);
+  display: none;
+  max-width: 100%;
+}
+.image-9-icon {
+  height: 81px;
+  width: 81px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.resume-image-icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 20px;
+}
+.upload-a-file {
+  width: 159px;
+  position: relative;
+  font-size: 20px;
+  font-family: Inter;
+  color: #000;
+  text-align: left;
+  display: inline-block;
+  z-index: 3;
+}
+.resume-container,
+.upload-resume-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.upload-resume-container {
+  border-radius: 14px;
+  background-color: rgba(229, 231, 232, 0.92);
+  padding: 54px 20px 39px 415px;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.resume-container {
+  gap: 4px;
+}
+.degree-major-container {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 50px;
+}
+.degree-major-container,
+.education-container,
+.project-skill-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.education-container {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 10px;
+}
+.project-skill-form {
+  margin: 0;
+  width: 953px;
+  align-items: flex-end;
+  gap: 58px;
+}
+.submit-button-container {
+  height: 63px;
+  width: 161px;
+  z-index: 1;
+}
+.submit-container {
+  width: 953px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 0 0 2px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.skills-and-experience-containe {
+  align-self: stretch;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 133px 23px 50px 20px;
+  box-sizing: border-box;
+  gap: 89px;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+@media screen and (max-width: 1200px) {
+  .skills-and-experience-containe {
+    padding-top: 86px;
+    padding-bottom: 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .skills-and-experience-containe {
+    gap: 44px;
+    padding-top: 56px;
+    padding-bottom: 21px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .degree-major-content,
+  .education-input {
+    flex-wrap: wrap;
+  }
+  .upload-resume-container {
+    padding-left: 207px;
+    box-sizing: border-box;
+  }
+  .degree-major-container {
+    gap: 25px;
+  }
+  .project-skill-form {
+    gap: 29px;
+  }
+  .skills-and-experience-containe {
+    gap: 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .educational-qualifications,
+  .experience,
+  .institute,
+  .projects,
+  .skills1 {
+    font-size: 20px;
+  }
+  .educational-qualifications-con {
+    gap: 16px;
+  }
+  .degree,
+  .majorfield-of-study,
+  .resumecv {
+    font-size: 20px;
+  }
+  .upload-a-file {
+    font-size: 16px;
+  }
+  .upload-resume-container {
+    padding-left: 20px;
+    box-sizing: border-box;
+  }
+  .skills-and-experience-containe {
+    padding-top: 36px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,36 @@
+.mappin-icon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.city-state-or {
+  position: relative;
+  line-height: 24px;
+}
+.input-field1,
+.input-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.input-field1 {
+  align-self: stretch;
+  border-radius: 5px;
+  background-color: #fff;
+  flex-direction: row;
+  padding: 12px;
+  gap: 8px;
+  white-space: nowrap;
+}
+.input-wrapper {
+  width: 424px;
+  flex-direction: column;
+  padding: 12px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: 16px;
+  color: #9199a3;
+  font-family: Inter;
+}

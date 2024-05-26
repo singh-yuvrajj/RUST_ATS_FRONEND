@@ -1,0 +1,23 @@
+.job-item-container,
+.job-item-template {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.job-item-template {
+  flex: 1;
+  justify-content: space-between;
+  gap: 20px;
+}
+.job-item-container {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 2px 0 3px;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 1500px) {
+  .job-item-template {
+    flex-wrap: wrap;
+  }
+}
